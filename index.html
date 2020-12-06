@@ -26,9 +26,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/MatchingGame.loader.js";
       var config = {
-        dataUrl: buildUrl + "/MatchingGame.data.br",
-        frameworkUrl: buildUrl + "/MatchingGame.framework.js.br",
-        codeUrl: buildUrl + "/MatchingGame.wasm.br",
+        dataUrl: buildUrl + "/MatchingGame.data",
+        frameworkUrl: buildUrl + "/MatchingGame.framework.js",
+        codeUrl: buildUrl + "/MatchingGame.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Matching Game",
@@ -45,8 +45,8 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       } else {
-        canvas.style.width = "1280px";
-        canvas.style.height = "720px";
+        canvas.style.width = "960px";
+        canvas.style.height = "540px";
       }
       loadingBar.style.display = "block";
 
